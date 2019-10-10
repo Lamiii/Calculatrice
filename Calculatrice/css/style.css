@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #05204b;
+}
+
+/*section*/
+#section{
+    height: 50vh;
+    transform: translateY(50%);
+}
+
+#section .body{
+    background: white;
+    height: 430px;
+    width: 350px;
+    margin: auto;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+#section .screen{
+    background: #2c2c2c;
+    border: 1px solid white;
+    height: 90px;
+    border-radius: 5px;
+    position: relative;
+    top: -40px;
+}
+
+#section .text{
+   
+    color: white;
+}
+
+#section h3{
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+
+#section button{
+    background: #cfcfcf;
+    cursor: pointer;
+    width: 20%;
+    padding: 20px 0px;
+    margin: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#section .yellow{
+    background: #f8a400;
+}
+
+#section .green{
+    background: #05434b;
+    color: white;
+}
